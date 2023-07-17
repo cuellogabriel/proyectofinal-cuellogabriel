@@ -145,8 +145,6 @@ function seguirComprando() {
 }
 
 
-
-
 function guardarUsuariosEnLocalStorage() {
   // Obtener los valores del formulario
   const nombre = document.getElementById("nombre").value;
@@ -227,3 +225,5 @@ function mostrarUsuariosGuardados() {
 
 // Inicialización
 obtenerProductosDelCarrito();
+
+
