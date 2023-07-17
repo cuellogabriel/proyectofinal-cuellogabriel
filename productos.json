@@ -1,0 +1,291 @@
+[
+  {
+    "id": "producto1",
+    "nombre": "Chevrolet Suv",
+    "precio": 10000000,
+    "descripcion": "Camioneta 0km, 100% financiada",
+    "imageUrl": "../Img/camioneta chevrolet Suv.jpg",
+    "categoria": "vehiculos"
+  },
+  {
+    "id": "producto2",
+    "nombre": "Casa Simple",
+    "precio": 100000000,
+    "descripcion": "Pieza , Cocina , Baño y Garage",
+    "imageUrl": "../Img/casa.jpg",
+    "categoria": "inmuebles"
+  },
+  {
+    "id": "producto3",
+    "nombre": "Pileta",
+    "precio": 1000000,
+    "descripcion": "Pileta amplia",
+    "imageUrl": "../Img/pileta.jpg",
+    "categoria": "hogar"
+  },
+  {
+    "id": "producto4",
+    "nombre": "Iphone 14 Pro",
+    "precio": 450000,
+    "descripcion": "256 Gb , Camara 48MP",
+    "imageUrl": "../Img/iphone 14 pro max.jpg",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": "producto5",
+    "nombre": "Campera Alpines",
+    "precio": 50000,
+    "descripcion": "Campera Termica para alpinismo",
+    "imageUrl": "../Img/campera de alpines.jpg",
+    "categoria": "vestimenta"
+  },
+  {
+    "id": "producto6",
+    "nombre": "Cocina Industrial",
+    "precio": 35000,
+    "descripcion": "4 hornayas + plancha y horno",
+    "imageUrl": "../Img/cocina industrial.jpg",
+    "categoria": "hogar"
+  },
+  {
+    "id": "producto7",
+    "nombre": "Ventilador Inds",
+    "precio": 5000,
+    "descripcion": "Alta revolucion + 10 años de garantia",
+    "imageUrl": "../Img/ventilador.jpg",
+    "categoria": "hogar"
+  },
+  {
+    "id": "producto8",
+    "nombre": "Heladera Philco",
+    "precio": 45000,
+    "descripcion": "2 puertas , frizer y gran espacio",
+    "imageUrl": "../Img/heladera.jpg",
+    "categoria": "hogar"
+  },
+  {
+    "id": "producto9",
+    "nombre": "Kit de Cocina",
+    "precio": 20000,
+    "descripcion": "35% de Oferta",
+    "imageUrl": "../Img/kit de cocina.jpg",
+    "categoria": "hogar"
+  },
+  {
+    "id": "producto10",
+    "nombre": "Pava Electrica",
+    "precio": 3500,
+    "descripcion": "La Mejor calidad  (Mate-Cafe)",
+    "imageUrl": "../Img/pava electrica.jpg",
+    "categoria": "hogar"
+  },
+  {
+    "id": "producto11",
+    "nombre": "Lavarropas Drean",
+    "precio": 25000,
+    "descripcion": "Automatico + centrifugado",
+    "imageUrl": "../Img/lavarropa.jpg",
+    "categoria": "hogar"
+  },
+  {
+    "id": "producto12",
+    "nombre": "Microondas Philco",
+    "precio": 26750,
+    "descripcion": "panel + temporizador hasta en 6 coutas",
+    "imageUrl": "../Img/microondas.jpg",
+    "categoria": "hogar"
+  },
+  {
+    "id": "producto13",
+    "nombre": "Terreno",
+    "precio": 5000000,
+    "descripcion": "Acercado de 12 * 50",
+    "imageUrl": "../Img/terreno2.jpg",
+    "categoria": "inmuebles"
+  },
+  {
+    "id": "producto14",
+    "nombre": "Container casa",
+    "precio": 6500000,
+    "descripcion": "100% financiado , entrega al 50%",
+    "imageUrl": "../Img/casa container.jpg",
+    "categoria": "hogar"
+  },
+  {
+    "id": "producto15",
+    "nombre": "Chalet Moderno",
+    "precio": 150000000,
+    "descripcion": "2 Piezas , 2 baños , quincho , pileta y mas",
+    "imageUrl": "../Img/casa duplex.jpg",
+    "categoria": "inmuebles"
+  },
+  {
+    "id": "producto16",
+    "nombre": "Departamento",
+    "precio": 50000000,
+    "descripcion": "Totalmente Amueblado",
+    "imageUrl": "../Img/depto.jpg",
+    "categoria": "inmuebles"
+  },
+  {
+    "id": "producto17",
+    "nombre": "Casa Quinta",
+    "precio": 85000000,
+    "descripcion": "2 Hectareas",
+    "imageUrl": "../Img/quinta.jpg",
+    "categoria": "inmuebles"
+  },
+  {
+    "id": "producto18",
+    "nombre": "Vivienda Simple",
+    "precio": 10000000,
+    "descripcion": "Casa ideal para una persona",
+    "imageUrl": "../Img/casa.jpg",
+    "categoria": "inmuebles"
+  },
+  {
+    "id": "producto19",
+    "nombre": "Remera L",
+    "precio": 5000,
+    "descripcion": "Textura fina de primera calidad",
+    "imageUrl": "../Img/remera.jpg",
+    "categoria": "vestimenta"
+  },
+  {
+    "id": "producto20",
+    "nombre": "Pantalon Jogging",
+    "precio": 7000,
+    "descripcion": "Termico y fino",
+    "imageUrl": "../Img/pantalon.jpg",
+    "categoria": "vestimenta"
+  },
+  {
+    "id": "producto21",
+    "nombre": "Pollera Larga",
+    "precio": 20000,
+    "descripcion": "15% de Oferta",
+    "imageUrl": "../Img/pollera.jpg",
+    "categoria": "vestimenta"
+  },
+  {
+    "id": "producto22",
+    "nombre": "Jean L-xl",
+    "precio": 12500,
+    "descripcion": "Ultra Texturado",
+    "imageUrl": "../Img/jeans.jpg",
+    "categoria": "vestimenta"
+  },
+  {
+    "id": "producto23",
+    "nombre": "Tapado",
+    "precio": 75000,
+    "descripcion": "Tela de primera calidad<",
+    "imageUrl": "../Img/tapado.jpg",
+    "categoria": "vestimenta"
+  },
+  {
+    "id": "producto24",
+    "nombre": "Vestido",
+    "precio": 26750,
+    "descripcion": "En todos los talles",
+    "imageUrl": "../Img/vestido.jpg",
+    "categoria": "vestimenta"
+  },
+  {
+    "id": "producto25",
+    "nombre": "Pc Gamer",
+    "precio": 600000,
+    "descripcion": "32 gb de ram con placa integrada",
+    "imageUrl": "../Img/pc gamer.jpg",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": "producto26",
+    "nombre": "Drone 2023",
+    "precio": 452000,
+    "descripcion": "Camara 100MP + Alto alcanse",
+    "imageUrl": "../Img/dron.jpg",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": "producto27",
+    "nombre": "Kit Gamer",
+    "precio": 20000,
+    "descripcion": "25% de Oferta Completo",
+    "imageUrl": "../Img/kit gamer.jpg",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": "producto28",
+    "nombre": "Scanner 3d",
+    "precio": 420500,
+    "descripcion": "Laser Ultra tecnologico",
+    "imageUrl": "../Img/scanner 3d.jpg",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": "producto29",
+    "nombre": "TCL-Lenovo",
+    "precio": 750000,
+    "descripcion": "Celular flexible 2023",
+    "imageUrl": "../Img/tcl-lenovo celular.jpg",
+    "categoria": "hogar"
+  },
+  {
+    "id": "producto30",
+    "nombre": "RTX 4060",
+    "precio": 470000,
+    "descripcion": "12 Gb hasta en 12 coutas",
+    "imageUrl": "../Img/4060.jpg",
+    "categoria": "tecnologia"
+  },
+  {
+    "id": "producto31",
+    "nombre": "Chevrolet Silverado",
+    "precio": 30000000,
+    "descripcion": "4X4 Automática",
+    "imageUrl": "../Img/chevrolet silverado.jpg",
+    "categoria": "vehiculos"
+  },
+  {
+    "id": "producto32",
+    "nombre": "Chevrolet Spark",
+    "precio": 6500000,
+    "descripcion": "2 puertas, 1.6 6v",
+    "imageUrl": "../Img/chevrolet spark.jpg",
+    "categoria": "vehiculos"
+  },
+  {
+    "id": "producto33",
+    "nombre": "Nissan Versa",
+    "precio": 8000000,
+    "descripcion": "Amplio espacio, turbo diesel",
+    "imageUrl": "../Img/nissan versa.jpg",
+    "categoria": "vehiculos"
+  },
+  {
+    "id": "producto34",
+    "nombre": "Ford Fiesta",
+    "precio": 5000000,
+    "descripcion": "100% financiado",
+    "imageUrl": "../Img/ford fiesta.jpg",
+    "categoria": "vehiculos"
+  },
+  {
+    "id": "producto35",
+    "nombre": "Ford Focus",
+    "precio": 8000000,
+    "descripcion": "4 puertas, turbo intercooler",
+    "imageUrl": "../Img/ford focus.jpg",
+    "categoria": "vehiculos"
+  },
+  {
+    "id": "producto36",
+    "nombre": "Fiat 500",
+    "precio": 10500000,
+    "descripcion": "0 km Modelo 2023",
+    "imageUrl": "../Img/fiat 500.jpg",
+    "categoria": "vehiculos"
+  }
+
+]

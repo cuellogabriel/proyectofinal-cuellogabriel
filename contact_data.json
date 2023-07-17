@@ -1,0 +1,8 @@
+[
+    {
+      "nombre": "Ejemplo",
+      "correo": "ejemplo@example.com",
+      "telefono": "123456789",
+      "mensaje": "Este es un ejemplo de datos"
+    }
+  ]
