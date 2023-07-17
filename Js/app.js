@@ -144,36 +144,8 @@ function seguirComprando() {
   history.back();
 }
 
-// Obtenemos los elementos de la barra de búsqueda
-const searchInput = document.querySelector('.search-bar input');
-const searchButton = document.querySelector('.search-bar button');
-const searchResults = document.getElementById('search-results');
 
-// Agrego un event listener para capturar la búsqueda cuando se hace clic en el botón
-searchButton.addEventListener('click', function() {
-  const searchTerm = searchInput.value.trim().toLowerCase();
-  searchResults.innerHTML = ''; // Limpiamos los resultados anteriores
 
-  // Verifico si el término de búsqueda está presente en los nombres de los productos
-  const products = document.querySelectorAll('.card-title');
-  for (const product of products) {
-    const productName = product.textContent.toLowerCase();
-
-    // Si encontramos una coincidencia, mostramos el producto en los resultados
-    if (productName.includes(searchTerm)) {
-      const productCard = product.closest('.card');
-      const clonedCard = productCard.cloneNode(true);
-      searchResults.appendChild(clonedCard);
-    }
-  }
-
-  // Si no se encontraron resultados
-  if (searchResults.children.length === 0) {
-    const noResultsMessage = document.createElement('p');
-    noResultsMessage.textContent = 'No se encontraron resultados.';
-    searchResults.appendChild(noResultsMessage);
-  }
-});
 
 function guardarUsuariosEnLocalStorage() {
   // Obtener los valores del formulario
