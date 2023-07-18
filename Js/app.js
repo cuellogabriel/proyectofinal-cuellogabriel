@@ -227,3 +227,38 @@ function mostrarUsuariosGuardados() {
 obtenerProductosDelCarrito();
 
 
+// Evento del botón de búsqueda
+const btnBuscar = document.querySelector('button[type="submit"]');
+const inputBusqueda = document.querySelector('input[type="text"]');
+const resultadosBusqueda = document.getElementById('resultados-busqueda');
+
+btnBuscar.addEventListener('click', () => {
+  const terminoBusqueda = inputBusqueda.value.trim();
+  const resultados = buscarProductos(terminoBusqueda);
+
+  // Limpiar los resultados previos
+  resultadosBusqueda.innerHTML = '';
+
+  if (resultados.length === 0) {
+    resultadosBusqueda.innerHTML = '<p>No se encontraron resultados.</p>';
+  } else {
+    resultados.forEach(producto => {
+      resultadosBusqueda.innerHTML += `
+        <div class="card">
+          <img src="${producto.imageUrl}" class="card-img-top" alt="${producto.nombre}">
+          <div class="card-body">
+            <h5 class="card-title text-center">${producto.nombre}</h5>
+            <p class="card-text" style="color: black">Precio: $${producto.precio}</p>
+            <p class="card-text" style="color: black">${producto.descripcion}</p>
+            <button class="btn btn-primary btn-comprar" onclick="agregarAlCarrito('${producto.id}');">Comprar</button>
+          </div>
+        </div>
+      `;
+    });
+  }
+});
+
+
+
+
+
