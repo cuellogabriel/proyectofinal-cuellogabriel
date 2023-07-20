@@ -23,10 +23,10 @@
       <div class="logo">
         <h1 id="logo-text" style="color: #e0ac1c;">Mercado Devs</h1>
       </div>
-      <div class="search-bar">
-        <input type="text" placeholder="Buscar">
-        <button type="submit">Buscar</button>
-      </div>
+ <div class="search-bar">
+  <input id="search-input" type="text" placeholder="Buscar">
+  <button id="search-button" type="submit" onclick="buscar(event)">Buscar</button>
+</div>
       <ul>
         <li><a href="#">Home</a></li>
         <li class="dropdown">
@@ -57,6 +57,7 @@
           <img src="./Img/MercadoDevs.JPG" alt="Imagen" />
           Mercado Devs
         </div>
+<ul id="resultados-busqueda"></ul>
       </main>
       <footer>
         <div class="footer-left" style="color:#e0ac1c">
@@ -80,5 +81,6 @@
       <video src="./Movie/video.mp4" autoplay loop muted poster></video>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
     <script src="./Js/app.js"></script>
+        <script src="./Js/search.js"></script>
 </body>
 </html>
