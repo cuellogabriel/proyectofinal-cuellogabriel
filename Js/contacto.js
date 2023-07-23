@@ -86,6 +86,7 @@ function enviarFormulario() {
 
   // Mostrar un mensaje de confirmación
   alert("Su consulta ha sido enviada. Un representante se pondrá en contacto con usted a la brevedad.");
+  limpiarFormulario();
 }
 
 function mostrarInformacion() {
@@ -103,3 +104,19 @@ function mostrarInformacion() {
 
 // Llamar a la función para mostrar la información por consola
 mostrarInformacion();
+
+function limpiarFormulario() {
+  // Obtener todos los campos del formulario
+  var campos = document.getElementsByTagName("input");
+  var textarea = document.getElementsByTagName("textarea");
+
+  // Limpiar el valor de cada campo
+  for (var i = 0; i < campos.length; i++) {
+    campos[i].value = "";
+  }
+
+  // Limpiar el valor del textarea
+  if (textarea.length > 0) {
+    textarea[0].value = "";
+  }
+}

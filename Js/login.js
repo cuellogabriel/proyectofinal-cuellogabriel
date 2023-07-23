@@ -7,13 +7,13 @@ document.addEventListener("DOMContentLoaded", function() {
     var usuario = document.getElementById("usuario").value;
     var contrasena = document.getElementById("contrasena").value;
 
-    // Validar  usuario y contraseña
+    // Validar usuario y contraseña
     if (usuario === "" || contrasena === "") {
       alert("Por favor, complete todos los campos.");
       return; // Detener la ejecución del código si los campos están vacíos
     }
 
-    // Verificar registrados
+    // Verificar si el usuario está registrado
     var usuariosJSON = localStorage.getItem("usuarios");
     if (usuariosJSON) {
       var usuarios = JSON.parse(usuariosJSON);
@@ -35,10 +35,23 @@ document.addEventListener("DOMContentLoaded", function() {
       return; // Detener la ejecución del código si no hay usuarios registrados
     }
 
-    
-    // Mostrar  inicio de sesion valido
+    // Mostrar inicio de sesión válido
     showCustomAlert("Bienvenido");
   });
+
+  // Mostrar mensaje de bienvenida y limpiar el formulario
+  function showCustomAlert(message) {
+    var customAlert = document.getElementById("custom-alert");
+    customAlert.textContent = message;
+    customAlert.style.display = "block";
+
+    // Limpia los campos del formulario después de 2 segundos
+    setTimeout(function() {
+      document.getElementById("usuario").value = "";
+      document.getElementById("contrasena").value = "";
+      customAlert.style.display = "none";
+    }, 2000);
+  }
 });
 
 //hover de logo

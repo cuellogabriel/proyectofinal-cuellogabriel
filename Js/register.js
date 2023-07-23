@@ -42,6 +42,8 @@ function guardarUsuariosEnLocalStorage() {
   // Guarda el arreglo actualizado en el localStorage
   localStorage.setItem("usuarios", JSON.stringify(usuarios));
 
+  limpiarFormulario();
+
   // Registrado
   alert("Registro exitoso!");
 }
@@ -74,7 +76,21 @@ function mostrarUsuariosGuardados() {
     console.log("No se encontraron usuarios guardados");
   }
 }
-mostrarUsuariosGuardados()
+
+
+function limpiarFormulario() {
+  document.getElementById("nombre").value = "";
+  document.getElementById("apellido").value = "";
+  document.getElementById("edad").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("repetirEmail").value = "";
+  document.getElementById("pais").value = "";
+  document.getElementById("provincia").value = "";
+  document.getElementById("localidad").value = "";
+  document.getElementById("codigoPostal").value = "";
+  document.getElementById("contrasena").value = "";
+  document.getElementById("username").value = "";
+}
  
 
   // obtengo el elemento del menú de categorías
