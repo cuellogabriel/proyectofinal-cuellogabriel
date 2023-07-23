@@ -302,6 +302,7 @@
         height: 30px;
       }
     }
+   
     video {
       position: fixed;
       min-width: 100%;
@@ -310,12 +311,10 @@
       left: 50%;
       transform: translateX(-50%) translateY(-50%);
       z-index: -1;
-      overflow: hidden;
+      overflow-x: hidden;
     }
 
-    
-    
-    
+  
   
     .logos{
       width: 50px;

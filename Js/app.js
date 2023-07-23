@@ -227,36 +227,52 @@ function mostrarUsuariosGuardados() {
 obtenerProductosDelCarrito();
 
 
-// Evento del botón de búsqueda
-const btnBuscar = document.querySelector('button[type="submit"]');
-const inputBusqueda = document.querySelector('input[type="text"]');
-const resultadosBusqueda = document.getElementById('resultados-busqueda');
+// search.js
 
-btnBuscar.addEventListener('click', () => {
-  const terminoBusqueda = inputBusqueda.value.trim();
-  const resultados = buscarProductos(terminoBusqueda);
+function buscarProductos(termino) {
+  // Convertir el término de búsqueda a minúsculas para hacer una búsqueda no sensible a mayúsculas
+  const terminoLowerCase = termino.toLowerCase();
 
-  // Limpiar los resultados previos
-  resultadosBusqueda.innerHTML = '';
+  // Filtrar los productos que contengan el término de búsqueda en el nombre
+  const resultados = productos.filter(producto => producto.nombre.toLowerCase().includes(terminoLowerCase));
 
-  if (resultados.length === 0) {
-    resultadosBusqueda.innerHTML = '<p>No se encontraron resultados.</p>';
-  } else {
-    resultados.forEach(producto => {
-      resultadosBusqueda.innerHTML += `
-        <div class="card">
-          <img src="${producto.imageUrl}" class="card-img-top" alt="${producto.nombre}">
-          <div class="card-body">
-            <h5 class="card-title text-center">${producto.nombre}</h5>
-            <p class="card-text" style="color: black">Precio: $${producto.precio}</p>
-            <p class="card-text" style="color: black">${producto.descripcion}</p>
-            <button class="btn btn-primary btn-comprar" onclick="agregarAlCarrito('${producto.id}');">Comprar</button>
+  return resultados;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Evento del botón de búsqueda
+  const btnBuscar = document.querySelector('button[type="submit"]');
+  const inputBusqueda = document.querySelector('input[type="text"]');
+  const resultadosBusqueda = document.getElementById('resultados-busqueda');
+
+  btnBuscar.addEventListener('click', () => {
+    const terminoBusqueda = inputBusqueda.value.trim();
+    const resultados = buscarProductos(terminoBusqueda);
+
+    // Limpiar los resultados previos
+    resultadosBusqueda.innerHTML = '';
+
+    if (resultados.length === 0) {
+      resultadosBusqueda.innerHTML = '<p>No se encontraron resultados.</p>';
+    } else {
+      resultados.forEach(producto => {
+        resultadosBusqueda.innerHTML += `
+          <div class="card">
+            <img src="${producto.imageUrl}" class="card-img-top" alt="${producto.nombre}">
+            <div class="card-body">
+              <h5 class="card-title text-center">${producto.nombre}</h5>
+              <p class="card-text" style="color: black">Precio: $${producto.precio}</p>
+              <p class="card-text" style="color: black">${producto.descripcion}</p>
+              <button class="btn btn-primary btn-comprar" onclick="agregarAlCarrito('${producto.id}');">Comprar</button>
+            </div>
           </div>
-        </div>
-      `;
-    });
-  }
+        `;
+      });
+    }
+  });
 });
+
+
 
 
 
