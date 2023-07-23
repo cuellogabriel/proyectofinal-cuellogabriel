@@ -21,7 +21,7 @@ async function cargarProductosDesdeArchivo() {
 }
 
 function redirigirAlCarrito() {
-  window.location.replace('../../Pages/carrito.html');
+  window.location.replace('../Pages/carrito.html');
 }
 
 function agregarAlCarrito(idProducto) {
@@ -31,8 +31,11 @@ function agregarAlCarrito(idProducto) {
     return;
   }
 
+
+
   carrito.push(productoComprado);
   actualizarEstadoCarrito();
+  redirigirAlCarrito();
 }
 
 function comenzarRow() {

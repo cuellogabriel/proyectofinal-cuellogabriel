@@ -372,4 +372,9 @@
     p{
       color: white;
     }
+
+    #carrito-lista li,
+    #carrito-lista li p {
+        color: #fff;
+    }
   }

@@ -47,6 +47,8 @@ function realizarPago() {
   mostrarMensajeDespuesDeComprar();
   carrito = []; // Vaciamos el carrito después de mostrar el mensaje
   actualizarEstadoCarrito();
+  
 }
 
 mostrarCarrito();
+
