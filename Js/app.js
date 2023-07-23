@@ -65,8 +65,8 @@ async function renderizarProductos(categoria) {
         <img src="${unProducto.imageUrl}" class="card-img-top" alt="${unProducto.nombre}">
         <div class="card-body">
           <h5 class="card-title text-center">${unProducto.nombre}</h5>
-          <p class="card-text" style="color: black">Precio: $${unProducto.precio}</p>
-          <p class="card-text" style="color : black">${unProducto.descripcion}</p>
+          <p class="card-text" style="color: black; text-align: center;">Precio: $${unProducto.precio}</p>
+          <p class="card-text" style="color : black; text-align: center;">${unProducto.descripcion}</p>
           <button class="btn btn-primary btn-comprar" onclick="agregarAlCarrito('${unProducto.id}');">Comprar</button>
         </div>
       </div>
