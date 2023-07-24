@@ -8,7 +8,7 @@ const carritoContainer = document.getElementById('carrito');
   carrito.forEach((producto, index) => {
     const listItem = document.createElement('li');
     listItem.textContent = `${producto.nombre} - Precio: $${producto.precio}`;
-    listItem.innerHTML += `<button onclick="eliminarProducto('${index}')">Eliminar</button>`;
+    listItem.innerHTML += `<button onclick="eliminarProducto('${index}')">Eliminar</button>`;                 //ESTA ES LA ANTERIOR PERO DEVIA PASARLO A BLANCO.. 
     carritoLista.appendChild(listItem);
   });
 

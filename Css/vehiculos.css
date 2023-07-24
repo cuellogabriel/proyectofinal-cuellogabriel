@@ -175,15 +175,6 @@
     }
 
    
-    .btn .btn-primary .btn-comprar{
-      position: relative;
-      left: 200px;
-    }
-
-
-    
-    
-    
     @media (min-width: 768px) {
       .row-cols-3 {
         column-count: 3;
@@ -204,7 +195,7 @@
     .btn-comprar {
       display: flex;
       position: relative;
-      left: 110px;
+      left: 50px;
       margin-top: 10px;
     }
    .card-text{
