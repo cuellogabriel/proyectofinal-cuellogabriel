@@ -3,7 +3,7 @@
     "id": "producto1",
     "nombre": "Chevrolet Suv",
     "precio": 10000000,
-    "descripcion": "Camioneta 0km, 100% financiada",
+    "descripcion": "Camioneta 0km, ",
     "imageUrl": "../Img/camioneta chevrolet Suv.jpg",
     "categoria": "vehiculos"
   },
@@ -11,18 +11,11 @@
     "id": "producto2",
     "nombre": "Casa Simple",
     "precio": 100000000,
-    "descripcion": "Pieza , Cocina , Baño y Garage",
+    "descripcion": "Pieza , Cocina , Baño y Garage + parrilla a estrenar",
     "imageUrl": "../Img/casa.jpg",
     "categoria": "inmuebles"
   },
-  {
-    "id": "producto3",
-    "nombre": "Pileta",
-    "precio": 1000000,
-    "descripcion": "Pileta amplia",
-    "imageUrl": "../Img/pileta.jpg",
-    "categoria": "hogar"
-  },
+  
   {
     "id": "producto4",
     "nombre": "Iphone 14 Pro",
@@ -67,7 +60,7 @@
     "id": "producto9",
     "nombre": "Kit de Cocina",
     "precio": 20000,
-    "descripcion": "35% de Oferta",
+    "descripcion": "35% de Oferta hasta mañana",
     "imageUrl": "../Img/kit de cocina.jpg",
     "categoria": "hogar"
   },
@@ -87,30 +80,16 @@
     "imageUrl": "../Img/lavarropa.jpg",
     "categoria": "hogar"
   },
-  {
-    "id": "producto12",
-    "nombre": "Microondas Philco",
-    "precio": 26750,
-    "descripcion": "panel + temporizador hasta en 6 coutas",
-    "imageUrl": "../Img/microondas.jpg",
-    "categoria": "hogar"
-  },
+ 
   {
     "id": "producto13",
     "nombre": "Terreno",
     "precio": 5000000,
-    "descripcion": "Acercado de 12 * 50",
+    "descripcion": "Acercado de 12 * 50 , unico dueño , levantado + entrada empedrada",
     "imageUrl": "../Img/terreno2.jpg",
     "categoria": "inmuebles"
   },
-  {
-    "id": "producto14",
-    "nombre": "Container casa",
-    "precio": 6500000,
-    "descripcion": "100% financiado , entrega al 50%",
-    "imageUrl": "../Img/casa container.jpg",
-    "categoria": "hogar"
-  },
+  
   {
     "id": "producto15",
     "nombre": "Chalet Moderno",
@@ -129,7 +108,7 @@
   },
   {
     "id": "producto17",
-    "nombre": "Casa Quinta",
+    "nombre": "Casa Quinta nueva",
     "precio": 85000000,
     "descripcion": "2 Hectareas",
     "imageUrl": "../Img/quinta.jpg",
@@ -139,13 +118,13 @@
     "id": "producto18",
     "nombre": "Vivienda Simple",
     "precio": 10000000,
-    "descripcion": "Casa ideal para una persona",
+    "descripcion": "Casa ideal ",
     "imageUrl": "../Img/casa.jpg",
     "categoria": "inmuebles"
   },
   {
     "id": "producto19",
-    "nombre": "Remera L",
+    "nombre": "Remera L (+ talles)",
     "precio": 5000,
     "descripcion": "Textura fina de primera calidad",
     "imageUrl": "../Img/remera.jpg",
@@ -155,7 +134,7 @@
     "id": "producto20",
     "nombre": "Pantalon Jogging",
     "precio": 7000,
-    "descripcion": "Termico y fino",
+    "descripcion": "Termico y fino en oferta 25%",
     "imageUrl": "../Img/pantalon.jpg",
     "categoria": "vestimenta"
   },
@@ -223,14 +202,7 @@
     "imageUrl": "../Img/scanner 3d.jpg",
     "categoria": "tecnologia"
   },
-  {
-    "id": "producto29",
-    "nombre": "TCL-Lenovo",
-    "precio": 750000,
-    "descripcion": "Celular flexible 2023",
-    "imageUrl": "../Img/tcl-lenovo celular.jpg",
-    "categoria": "hogar"
-  },
+ 
   {
     "id": "producto30",
     "nombre": "RTX 4060",
@@ -259,7 +231,7 @@
     "id": "producto33",
     "nombre": "Nissan Versa",
     "precio": 8000000,
-    "descripcion": "Amplio espacio, turbo diesel",
+    "descripcion": "Amplio espacio, turbo ",
     "imageUrl": "../Img/nissan versa.jpg",
     "categoria": "vehiculos"
   },
@@ -275,7 +247,7 @@
     "id": "producto35",
     "nombre": "Ford Focus",
     "precio": 8000000,
-    "descripcion": "4 puertas, turbo intercooler",
+    "descripcion": "4 puertas, turbo ",
     "imageUrl": "../Img/ford focus.jpg",
     "categoria": "vehiculos"
   },

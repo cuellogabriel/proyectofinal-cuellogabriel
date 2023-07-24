@@ -64,6 +64,7 @@ function mostrarMensajeDespuesDeComprar() {
     const mensajeGracias = document.createElement('h3');
     mensajeGracias.textContent = "Gracias Por Su Compra";
     carritoContainer.appendChild(mensajeGracias);
+    
   }
 }
 
